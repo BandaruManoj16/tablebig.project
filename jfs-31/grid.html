@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .cointainer{
+        display: grid;
+        grid-template-rows: 100px 100px 100px;
+        grid-template-columns:repeat(auto-fill,minmax(100px ,ifr));
+        gap:20px;
+
+    }
+    .child{
+        display: grid;
+        background-color: blue;
+        place-items: center;
+        background-color: rgba(0,0,0,0.65);
+        color: white;
+    }
+    .child1{
+        grid-column: 1/3;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="cointainer">
+        <div class="child child1">manoj</div>
+        <div class="child">manoj</div>
+        <div class="child">manoj</div>
+        <div class="child">manoj</div>
+        <div class="child">manoj</div>
+        <div class="child">manoj</div>
+        <div class="child">manoj</div>
+    </div>
+
+    
+</body>
+</html>
+

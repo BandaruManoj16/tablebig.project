@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registation Form</title>
+    
+    <style>
+        
+        form{
+            background-color: rgb(180, 190, 190);
+            border: 3px solid white;
+         width: 600px;
+         text-align: center;
+         font-weight: bolder;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         box-shadow: #4f5355 10px 10px ;
+         color: rgb(101, 98, 91);
+        display: flex;
+        flex-direction: column;
+         max-width: 600px;
+         padding: 50px;
+         background-color: white;
+         margin: 0 auto;
+         margin-top: 50px;
+         box-shadow: 4px 3px 5px ;
+         border-radius: 10px;
+         text-align: center;
+        
+            
+         
+        }
+        body{
+            background-color: rgb(20, 20, 20);
+            
+            
+           
+        }
+        input:focus
+        {
+            outline-color: rgb(120, 158, 83);
+            
+            
+        }
+        input{
+            border-radius: 10px;
+            padding: 9px 5px 9px 5px;
+        }
+        label
+        {
+            margin-left: auto;
+        }
+        button:hover{
+            background-color: rgb(134, 144, 121);
+        border-radius: 8px;
+        border: transparent;
+        padding: 5px 10px;
+        color: white;
+        cursor: pointer;
+    
+        }
+        div
+        {
+            padding: 4px;
+        }
+        
+    </style>
+</head>
+<body >
+    
+     <legend><center><form >
+    <div class="form_control">
+        <div class="form">
+            <h1 style="text-align: center;">User Regestation</h1>
+        <label for="full_name">Full Name</label>
+        <input 
+        type="text"
+        id="full_name"
+        placeholder="enter the fullname"
+        required
+        >
+        </div>
+        <br>
+        <div>
+            <labale for="username">username</labale>
+            <input 
+            type="text"
+            id="username"
+            placeholder="enter the username"
+            required
+            >
+
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input 
+            type="email"
+            id="email"
+            placeholder="Enter your Email"
+            required
+            >
+        </div>
+        <br>
+        <div>
+            <lable for="pass">password</lable>
+            <input
+            type="password"
+            name="pass"
+            placeholder="Enter the password"
+            required
+            >
+
+        </div>
+        <br>
+        <div>
+            <lable for="pass">Confirm Password</lable>
+            <input
+            type="password"
+            name="pass"
+            placeholder="re-enter Password"
+            required="enter correct"
+            >
+
+        </div>
+        <br>
+        <div>
+            <lable for="gender">Gender</lable>
+            <input
+                type="radio"
+                >mail
+                <input
+                type="radio"
+                >female
+                <input
+                type="radio"
+                >other
+                
+        </div>
+        <br>
+        <div>
+            <lable for="date">D.O.B</lable>
+            <input
+            type="date"
+            id="date"
+            >
+
+        </div>
+        <br>
+        <div>
+        <label for="country">Country</label>
+        <select>
+            <option>select your country</option>
+            <option>India</option>
+            <option>china</option>
+            <option>cannada</option>
+        </select>
+        </div>
+        <br>
+        <div>
+            <lable for="skills"> Skills</lable>
+            <input 
+            type="checkbox" 
+            name="skills"
+            required
+            >java
+            <input 
+            type="checkbox" 
+            name="skills"
+            required
+            >Python
+            <input 
+            type="checkbox" 
+            name="skills"
+            required
+            >html
+
+            
+        </div>
+        <br>
+        <div>
+            <lable for="resume"> Upload Resume</lable>
+            <input 
+            type="file"
+            name="resume"
+            required
+            >
+
+        </div>
+        <br>
+        <button>submit</button>
+
+    </div>
+    </form></center></legend>
+</body>
+</html>
